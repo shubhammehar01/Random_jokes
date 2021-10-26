@@ -1,0 +1,139 @@
+.navbar {
+    overflow: hidden;
+    background-color: rgba(11, 112, 245, 0.13);
+}
+
+.navbar a {
+    float: left;
+    font-size: 25px;
+    color: rgba(23, 170, 238, 0.932);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-shadow: rgb(8, 106, 145) 2px 2px 2px;
+}
+
+
+body {
+    background-image: url("https://www.teahub.io/photos/full/1-18855_2401x1600-download-wallpaper-calm-usa-water-berth-calming.jpg");
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    position: fixed;
+
+}
+
+.info {
+    margin-top: 300px;
+    margin-left: 140px;
+    font-family: cursive;
+}
+
+.btn {
+
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    width: 50%;
+    color: rgb(13, 20, 83);
+    cursor: pointer;
+    font-weight: 600;
+    position: fixed;
+
+    background-color: rgba(78, 155, 228, 0.26);
+
+    top: 20%;
+    left: 25%;
+}
+
+
+.result {
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 50px;
+    font-weight: 400;
+    color: rgb(12, 133, 247);
+    text-shadow: #000 2px 2px 2px;
+
+    background-color: rgba(255, 255, 255, 0.164);
+}
+
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 25px;
+
+    border: none;
+    outline: none;
+    color: rgba(23, 170, 238, 0.932);
+    padding: 14px 18px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: rgba(0, 153, 255, 0.24);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f921;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(221, 221, 221, 0.315);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn {
+        top: 30%;
+        left: 18%;
+        width: 250px;
+        font-size: 20px;
+    }
+
+    .result {
+        font-size: 25px;
+        margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 250px;
+    background-color: rgba(255, 255, 255, 0.623)
+
+    }
+    .dropdown .dropbtn {
+        font-size: 20px;
+    }
+    .navbar a{
+        font-size: 20px;
+    }
+    .dropdown-content {
+        color: #fff;
+    }
+
+}
